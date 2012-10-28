@@ -16,14 +16,10 @@ import java.util.Observer;
  */
 public class Passant extends Personnage implements Observer{
 
-    private AvatarClass _ac;
-    
-    public Passant(Point _position, AvatarClass ac) {
+    public Passant(Point _position) {
         super(_position);
         this._champsVision = 5;
         this._c = Color.BLUE;
-        _ac = ac;
-        _ac.addObserver(this);
     }
 
     
@@ -34,7 +30,7 @@ public class Passant extends Personnage implements Observer{
      */
     public void update(Observable o, Object arg) {
         // appeler coucou ou au revoir
-        System.out.println("UPDATE de Passant");
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     public void coucou(){

@@ -21,9 +21,9 @@ public class FormeDessinableRectangle extends FormeDessinable{
     }
 
     public void paintComponent(Graphics g,int x1,int x2,int y1,int y2) {
-           // super.paintComponent(g);
+            super.paintComponent(g);
             g.setColor(Color.BLUE);
-            g.fillRect(x1, x2, y1, y2);
+            g.fillOval(x1, x2, y1, y2);
         }
 
     

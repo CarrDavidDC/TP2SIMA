@@ -6,6 +6,7 @@
 package vue;
 
 import java.awt.Color;
+import java.awt.Graphics;
 import java.awt.GridLayout;
 import java.awt.Point;
 import javax.swing.BorderFactory;
@@ -32,7 +33,7 @@ public class VueRectangle extends Vue
             // colonnes
             for(int j = 0; j < largeur; j++)
             {
-                _fen[i][j] = new FormeDessinableRectangle(0,0,largeur,hauteur);
+                _fen[i][j] = new FormeDessinableRectangle();
                 FormeDessinableRectangle rect = (FormeDessinableRectangle) _fen[i][j];
                 rect.setName("("+i+", "+j+")");
                 // lors de la création on n a pas d affichage définit
@@ -47,10 +48,8 @@ public class VueRectangle extends Vue
                // controleur.ajouterPanel(panel, i, j);
             }
         }
-        
         this.setTitle("Vue Rectangle");
         this.setContentPane(_panel);
         this.setSize(300, 200);
-        lienJPanelControleur();
     }
 }
