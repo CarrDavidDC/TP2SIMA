@@ -95,4 +95,11 @@ public class Grille extends Observable{
         }
         return false;
     }
+    
+    public void maj()
+    {
+        System.out.println("MAJ Grille");
+        setChanged();
+        notifyObservers();
+    }
 }
