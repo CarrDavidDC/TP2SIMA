@@ -1,0 +1,56 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   build.xml
+#	new file:   build/classes/.netbeans_automatic_build
+#	new file:   build/classes/controleur/ControleurBoutons.class
+#	new file:   build/classes/controleur/ControleurClic.class
+#	new file:   build/classes/controleur/ControleurFleches.class
+#	new file:   build/classes/modele/Avatar.class
+#	new file:   build/classes/modele/AvatarClass.class
+#	new file:   build/classes/modele/Grille.class
+#	new file:   build/classes/modele/IAvatar.class
+#	new file:   build/classes/modele/Passant.class
+#	new file:   build/classes/modele/Personnage.class
+#	new file:   build/classes/tp2passants/Main.class
+#	new file:   build/classes/vue/Cercle.class
+#	new file:   build/classes/vue/FormeDessinable.class
+#	new file:   build/classes/vue/FormeDessinableOvale.class
+#	new file:   build/classes/vue/FormeDessinableRectangle.class
+#	new file:   build/classes/vue/Launcher.class
+#	new file:   build/classes/vue/Rectangle.class
+#	new file:   build/classes/vue/Vue.class
+#	new file:   build/classes/vue/VueOvale.class
+#	new file:   build/classes/vue/VueRectangle.class
+#	new file:   manifest.mf
+#	new file:   nbproject/build-impl.xml
+#	new file:   nbproject/genfiles.properties
+#	new file:   nbproject/private/private.properties
+#	new file:   nbproject/private/private.xml
+#	new file:   nbproject/project.properties
+#	new file:   nbproject/project.xml
+#	new file:   src/controleur/ControleurBoutons.java
+#	new file:   src/controleur/ControleurClic.java
+#	new file:   src/controleur/ControleurFleches.java
+#	new file:   src/modele/Avatar.java
+#	new file:   src/modele/AvatarClass.java
+#	new file:   src/modele/Grille.java
+#	new file:   src/modele/IAvatar.java
+#	new file:   src/modele/Passant.java
+#	new file:   src/modele/Personnage.java
+#	new file:   src/tp2passants/Main.java
+#	new file:   src/vue/Cercle.java
+#	new file:   src/vue/FormeDessinable.java
+#	new file:   src/vue/FormeDessinableOvale.java
+#	new file:   src/vue/FormeDessinableRectangle.java
+#	new file:   src/vue/Launcher.java
+#	new file:   src/vue/Rectangle.java
+#	new file:   src/vue/Vue.java
+#	new file:   src/vue/VueOvale.java
+#	new file:   src/vue/VueRectangle.java
+#
+
