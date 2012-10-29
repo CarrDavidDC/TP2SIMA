@@ -25,7 +25,7 @@ public class Vue extends JFrame implements Observer{
 
     public Vue()
     {
-        
+        Modifiation du fichier Vue.java
     }
     
     /**
